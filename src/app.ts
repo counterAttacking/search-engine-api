@@ -8,7 +8,7 @@ import controller from "./controller";
     database.sync();
 
     await initialize({
-        packages: { MKR: "2.0.4", MMKA: "2.0.4" },
+        packages: { KMR: "2.0.4", KKMA: "2.0.4" },
         verbose: true,
     });
 
