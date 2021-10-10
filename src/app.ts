@@ -17,5 +17,5 @@ import controller from "./controller";
     app.use(controller);
 
     const server = createServer(app);
-    server.listen(process.env.PORT || 5050);
+    server.listen(process.env.PORT || 4000);
 })();
